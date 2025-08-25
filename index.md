@@ -4,7 +4,7 @@ layout: default
 title: "Home"
 ---
 
-# Your Name
+# Gilbert Rotich
 _A short tagline (e.g., PhD Candidate in Computer Vision)_
 
 📧 email@example.com | 🌐 [Website](https://example.com) | [Google Scholar](https://scholar.google.com/) | [GitHub](https://github.com/yourusername)
