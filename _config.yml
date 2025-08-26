@@ -1,4 +1,12 @@
-title: "Gilbert Rotich"
+title: "Your Name"
 theme: minima
 author: Your Name
 description: "Academic CV and Portfolio"
+
+# Add navigation menu
+header_pages:
+  - index.md
+  - news.md
+  - papers.md
+  - experience.md
+  - projects/index.md
