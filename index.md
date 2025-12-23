@@ -9,7 +9,8 @@ title: "Home"
 <!--_A short tagline (e.g., PhD Candidate in Computer Vision)_ -->
 PhD Candidate | Computer Vision & Foundation Models | Self-Supervised, Generative, Multimodal and Earth Observation
 
-📧 email@example.com | 🌐 [Website](https://example.com) | [Google Scholar](https://scholar.google.com/) | [GitHub](https://github.com/yourusername)
+<!-- 📧 email@example.com | 🌐 [Website](https://example.com) | [Google Scholar](https://scholar.google.com/) | [GitHub](https://github.com/yourusername) -->
+📧 grotich@usf.edu | [Google Scholar](https://scholar.google.com/)
 
 ---
 
