@@ -15,7 +15,7 @@ PhD Candidate | Computer Vision & Foundation Models | Self-Supervised, Generativ
 ---
 
 ## Quick Links
-- [News](news.md)
+<!-- [News](news.md) -->
 - [Papers](papers.md)
 - [Experience](experience.md)
 - [Projects](projects/index.md)
