@@ -37,11 +37,6 @@ I’m a Ph.D. candidate in Computer Science and Engineering at the University of
 
 ---
 
-## News {#news}
-
-- (Add updates here—talks, acceptances, releases, etc.)
-
----
 
 ## Papers {#papers}
 
