@@ -6,7 +6,7 @@ title: "Home"
 -->
 
 ---
-title: Home
+Home
 ---
 
 # Gilbert Rotich
