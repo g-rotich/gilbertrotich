@@ -1,12 +1,7 @@
 
-<!-- ---
+ ---
 layout: default
 title: "Home"
----
--->
-
----
-Home
 ---
 
 # Gilbert Rotich
