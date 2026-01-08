@@ -11,7 +11,7 @@ PhD Candidate | Computer Vision & Foundation Models | Self-Supervised, Generativ
 **Email:** [grotich@usf.edu](mailto:grotich@usf.edu) · [Google Scholar](https://scholar.google.com/)
 
 ## Quick Links
-- [Papers](/papers/)
+- [Papers](papers.md)
 - [Experience](/experience/)
 - [Projects](/projects/)
 
