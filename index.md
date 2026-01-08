@@ -5,6 +5,11 @@ title: "Home"
 ---
 -->
 
+---
+layout: default
+title: Home
+---
+
 # Gilbert Rotich
 <!--_A short tagline (e.g., PhD Candidate in Computer Vision)_ -->
 PhD Candidate | Computer Vision & Foundation Models | Self-Supervised, Generative, Multimodal and Earth Observation
