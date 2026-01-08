@@ -6,23 +6,22 @@ permalink: /
 
 <div class="hero">
   <h1>Gilbert Rotich</h1>
-  <p class="hero-subtitle">
+  <p class="subtitle">
     PhD Candidate · Computer Vision & Foundation Models · Self-Supervised, Generative, Multimodal · Earth Observation
   </p>
-  <p class="hero-links">
-    <a href="mailto:grotich@usf.edu">grotich@usf.edu</a>
-    <span class="sep">·</span>
+  <p class="links">
+    <a href="mailto:grotich@usf.edu">grotich@usf.edu</a> ·
     <a href="https://scholar.google.com/">Google Scholar</a>
   </p>
-</div>
 
-<nav class="quick-links" aria-label="Quick links">
-  <a href="#about">About</a>
-  <a href="#news">News</a>
-  <a href="#papers">Papers</a>
-  <a href="#work-experience">Work Experience</a>
-  <a href="#projects">Projects</a>
-</nav>
+  <div class="quick-links">
+    <a href="#about">About</a>
+    <a href="#news">News</a>
+    <a href="#papers">Papers</a>
+    <a href="#experience">Work Experience</a>
+    <a href="#projects">Projects</a>
+  </div>
+</div>
 
 ---
 
@@ -35,43 +34,37 @@ Interests include computer vision, multimodal self-supervised learning, hierarch
 ---
 
 ## News {#news}
-
-- **2026-01** — Example item: Presented at ___.
-- **2025-10** — Example item: Paper accepted at ___.
+- **2026-01** — (Add item)
+- **2025-10** — (Add item)
 
 ---
 
 ## Papers {#papers}
 
-### Preprints / Under Review
-- **Paper Title** — Authors. *Venue / Status*, Year.  
-  [[PDF](#)] [[Code](#)] [[Project](#)]
-
 ### Publications
-- **Paper Title** — Authors. *Conference/Journal*, Year.  
-  [[PDF](#)] [[Code](#)] [[Project](#)]
+- **Paper Title** — Authors. *Venue*, Year. [PDF](#) · [Code](#)
+
+### Preprints / Under Review
+- **Paper Title** — Authors. *Status*, Year. [PDF](#) · [Code](#)
 
 ---
 
-## Work Experience {#work-experience}
+## Work Experience {#experience}
+**Role — Organization** (Start–End)  
+- Impact/result bullet
+- Tech/method bullet
 
-**Role Title — Organization** (Start–End)  
-- Bullet describing impact/ownership
-- Bullet describing methods/tech or outcomes
-
-**Role Title — Organization** (Start–End)  
+**Role — Organization** (Start–End)  
 - Bullet
 - Bullet
 
 ---
 
 ## Projects {#projects}
+### Project Name
+- One-line description  
+  Links: [Code](#) · [Demo](#) · [Write-up](#)
 
 ### Project Name
-- One-line description
-- Links: [[Demo](#)] [[Code](#)] [[Write-up](#)]
-
-### Project Name
-- One-line description
-- Links: [[Demo](#)] [[Code](#)] [[Write-up](#)]
-
+- One-line description  
+  Links: [Code](#) · [Demo](#) · [Write-up](#)
