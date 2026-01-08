@@ -37,7 +37,6 @@ I’m a Ph.D. candidate in Computer Science and Engineering at the University of
 
 ---
 
-
 ## Papers {#papers}
 
 ### Publications
