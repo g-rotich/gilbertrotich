@@ -1,6 +1,6 @@
 # Gilbert Rotich — Portfolio
 
-Live at: **https://g-rotich.github.io/**
+Live at: **https://g-rotich.github.io/gilbertrotich/**
 
 ---
 
