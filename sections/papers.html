@@ -1,0 +1,314 @@
+<!-- PAPERS -->
+<section id="papers">
+  <div class="section-header">
+    <span class="section-label">02</span>
+    <h2>Publications</h2>
+  </div>
+  <div class="papers-grid">
+
+    <!-- Paper 1: Robustness of Foundation Models -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- Grid of datasets -->
+          <rect x="8" y="8" width="36" height="24" rx="3" fill="rgba(94,158,138,0.15)" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <rect x="50" y="8" width="36" height="24" rx="3" fill="rgba(94,158,138,0.15)" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <rect x="92" y="8" width="36" height="24" rx="3" fill="rgba(94,158,138,0.15)" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <rect x="134" y="8" width="36" height="24" rx="3" fill="rgba(200,169,110,0.15)" stroke="rgba(200,169,110,0.4)" stroke-width="0.8"/>
+          <text x="26" y="23" text-anchor="middle" font-size="7" fill="rgba(94,158,138,0.9)" font-family="monospace">fMoW</text>
+          <text x="68" y="23" text-anchor="middle" font-size="7" fill="rgba(94,158,138,0.9)" font-family="monospace">xView</text>
+          <text x="110" y="23" text-anchor="middle" font-size="7" fill="rgba(94,158,138,0.9)" font-family="monospace">SpaceNet</text>
+          <text x="152" y="23" text-anchor="middle" font-size="7" fill="rgba(200,169,110,0.9)" font-family="monospace">RS-C10</text>
+          <!-- Foundation model box -->
+          <rect x="30" y="46" width="118" height="28" rx="4" fill="rgba(138,126,207,0.15)" stroke="rgba(138,126,207,0.5)" stroke-width="1"/>
+          <text x="89" y="60" text-anchor="middle" font-size="8" fill="rgba(138,126,207,0.9)" font-family="monospace" font-weight="500">Foundation Model</text>
+          <text x="89" y="70" text-anchor="middle" font-size="6.5" fill="rgba(138,126,207,0.6)" font-family="monospace">ViT-L / ResNet-50</text>
+          <!-- Arrows from datasets down -->
+          <line x1="26" y1="32" x2="55" y2="46" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <line x1="68" y1="32" x2="72" y2="46" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <line x1="110" y1="32" x2="106" y2="46" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <line x1="152" y1="32" x2="125" y2="46" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <!-- Results: score bars -->
+          <text x="8" y="90" font-size="6.5" fill="rgba(122,120,114,0.7)" font-family="monospace">Task Performance</text>
+          <rect x="8" y="95" width="80" height="6" rx="2" fill="rgba(94,158,138,0.3)" stroke="none"/>
+          <rect x="8" y="95" width="63" height="6" rx="2" fill="rgba(94,158,138,0.7)" stroke="none"/>
+          <rect x="8" y="105" width="80" height="6" rx="2" fill="rgba(200,169,110,0.2)" stroke="none"/>
+          <rect x="8" y="105" width="35" height="6" rx="2" fill="rgba(200,169,110,0.6)" stroke="none"/>
+          <rect x="8" y="115" width="80" height="6" rx="2" fill="rgba(196,92,92,0.2)" stroke="none"/>
+          <rect x="8" y="115" width="18" height="6" rx="2" fill="rgba(196,92,92,0.6)" stroke="none"/>
+          <text x="92" y="101" font-size="6" fill="rgba(94,158,138,0.8)" font-family="monospace">Classification</text>
+          <text x="92" y="111" font-size="6" fill="rgba(200,169,110,0.8)" font-family="monospace">Detection</text>
+          <text x="92" y="121" font-size="6" fill="rgba(196,92,92,0.8)" font-family="monospace">Segmentation</text>
+          <!-- robustness cross -->
+          <text x="152" y="105" font-size="18" fill="rgba(196,92,92,0.4)" font-family="monospace" text-anchor="middle">?</text>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">2025</span>
+          <span class="paper-badge badge-published">IEEE Access</span>
+        </div>
+        <div class="paper-title">Evaluating the Robustness of Foundation Models for Satellite Imagery</div>
+        <div class="paper-meta">G. Rotich, S. Sarkar · <em>IEEE Access</em>, 2025</div>
+        <div class="paper-abstract">A systematic benchmark evaluating how well large-scale foundation models generalize across diverse remote sensing tasks and datasets. Reveals task-specific failure modes tied to distribution shift, sensor variation, and architectural assumptions — motivating the need for compact, domain-aware models.</div>
+        <div class="paper-keywords">
+          <span class="pkw">Foundation Models</span><span class="pkw">Robustness</span><span class="pkw">Remote Sensing</span><span class="pkw">Benchmark</span><span class="pkw">ViT</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Paper 2: SSL KD Compact -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- Large teacher model -->
+          <rect x="8" y="20" width="52" height="70" rx="4" fill="rgba(138,126,207,0.12)" stroke="rgba(138,126,207,0.4)" stroke-width="0.8"/>
+          <text x="34" y="38" text-anchor="middle" font-size="6.5" fill="rgba(138,126,207,0.7)" font-family="monospace">Teacher</text>
+          <rect x="14" y="44" width="40" height="5" rx="1.5" fill="rgba(138,126,207,0.3)"/>
+          <rect x="14" y="52" width="40" height="5" rx="1.5" fill="rgba(138,126,207,0.25)"/>
+          <rect x="14" y="60" width="40" height="5" rx="1.5" fill="rgba(138,126,207,0.2)"/>
+          <rect x="14" y="68" width="40" height="5" rx="1.5" fill="rgba(138,126,207,0.15)"/>
+          <rect x="14" y="76" width="40" height="5" rx="1.5" fill="rgba(138,126,207,0.1)"/>
+          <text x="34" y="100" text-anchor="middle" font-size="6" fill="rgba(122,120,114,0.6)" font-family="monospace">ViT-L</text>
+          <!-- Arrow with distillation label -->
+          <line x1="62" y1="55" x2="98" y2="55" stroke="rgba(200,169,110,0.6)" stroke-width="1.2" stroke-dasharray="4 2"/>
+          <polygon points="98,52 104,55 98,58" fill="rgba(200,169,110,0.6)"/>
+          <text x="83" y="50" text-anchor="middle" font-size="6" fill="rgba(200,169,110,0.8)" font-family="monospace">distill</text>
+          <!-- Small student model -->
+          <rect x="106" y="32" width="34" height="46" rx="4" fill="rgba(106,171,126,0.12)" stroke="rgba(106,171,126,0.5)" stroke-width="0.8"/>
+          <text x="123" y="46" text-anchor="middle" font-size="6" fill="rgba(106,171,126,0.8)" font-family="monospace">Student</text>
+          <rect x="111" y="50" width="24" height="4" rx="1.5" fill="rgba(106,171,126,0.4)"/>
+          <rect x="111" y="57" width="24" height="4" rx="1.5" fill="rgba(106,171,126,0.3)"/>
+          <rect x="111" y="64" width="24" height="4" rx="1.5" fill="rgba(106,171,126,0.2)"/>
+          <text x="123" y="88" text-anchor="middle" font-size="6" fill="rgba(122,120,114,0.6)" font-family="monospace">ViT-S</text>
+          <!-- satellite image input -->
+          <rect x="8" y="108" width="52" height="16" rx="3" fill="rgba(94,158,138,0.12)" stroke="rgba(94,158,138,0.3)" stroke-width="0.7"/>
+          <text x="34" y="119" text-anchor="middle" font-size="6.5" fill="rgba(94,158,138,0.8)" font-family="monospace">Satellite input</text>
+          <!-- output task -->
+          <rect x="140" y="108" width="34" height="16" rx="3" fill="rgba(200,169,110,0.12)" stroke="rgba(200,169,110,0.3)" stroke-width="0.7"/>
+          <text x="157" y="119" text-anchor="middle" font-size="6" fill="rgba(200,169,110,0.8)" font-family="monospace">Classify</text>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">2025</span>
+          <span class="paper-badge badge-prep">In Prep</span>
+        </div>
+        <div class="paper-title">Self-supervised Knowledge Distillation For Compact Foundation Model for Satellite Images</div>
+        <div class="paper-meta">G. Rotich, S. Sarkar · In preparation, 2025</div>
+        <div class="paper-abstract">Proposes a self-supervised knowledge distillation framework that transfers representational capacity from large foundation models into compact student architectures. Starting with a single classification task, the method enables deployable, efficient models without requiring labeled remote sensing data.</div>
+        <div class="paper-keywords">
+          <span class="pkw">Knowledge Distillation</span><span class="pkw">SSL</span><span class="pkw">Compact Models</span><span class="pkw">Satellite Imagery</span><span class="pkw">Classification</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Paper 3: Multimodal SSL Distillation -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- Modality inputs -->
+          <rect x="6" y="10" width="38" height="18" rx="3" fill="rgba(94,158,138,0.15)" stroke="rgba(94,158,138,0.4)" stroke-width="0.7"/>
+          <text x="25" y="22" text-anchor="middle" font-size="6.5" fill="rgba(94,158,138,0.9)" font-family="monospace">Optical</text>
+          <rect x="6" y="34" width="38" height="18" rx="3" fill="rgba(200,169,110,0.15)" stroke="rgba(200,169,110,0.4)" stroke-width="0.7"/>
+          <text x="25" y="46" text-anchor="middle" font-size="6.5" fill="rgba(200,169,110,0.9)" font-family="monospace">SAR</text>
+          <rect x="6" y="58" width="38" height="18" rx="3" fill="rgba(138,126,207,0.15)" stroke="rgba(138,126,207,0.4)" stroke-width="0.7"/>
+          <text x="25" y="70" text-anchor="middle" font-size="6.5" fill="rgba(138,126,207,0.9)" font-family="monospace">Spectral</text>
+          <rect x="6" y="82" width="38" height="18" rx="3" fill="rgba(196,92,92,0.12)" stroke="rgba(196,92,92,0.35)" stroke-width="0.7"/>
+          <text x="25" y="94" text-anchor="middle" font-size="6.5" fill="rgba(196,92,92,0.9)" font-family="monospace">Text</text>
+          <!-- Converging lines to fusion box -->
+          <line x1="44" y1="19" x2="72" y2="55" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <line x1="44" y1="43" x2="72" y2="58" stroke="rgba(200,169,110,0.4)" stroke-width="0.8"/>
+          <line x1="44" y1="67" x2="72" y2="62" stroke="rgba(138,126,207,0.4)" stroke-width="0.8"/>
+          <line x1="44" y1="91" x2="72" y2="66" stroke="rgba(196,92,92,0.4)" stroke-width="0.8"/>
+          <!-- Unified compact model -->
+          <rect x="72" y="42" width="50" height="36" rx="5" fill="rgba(106,171,126,0.15)" stroke="rgba(106,171,126,0.55)" stroke-width="1"/>
+          <text x="97" y="57" text-anchor="middle" font-size="6.5" fill="rgba(106,171,126,0.9)" font-family="monospace">Unified</text>
+          <text x="97" y="66" text-anchor="middle" font-size="6.5" fill="rgba(106,171,126,0.9)" font-family="monospace">SSL Model</text>
+          <text x="97" y="73" text-anchor="middle" font-size="5.5" fill="rgba(106,171,126,0.6)" font-family="monospace">compact</text>
+          <!-- outputs -->
+          <line x1="122" y1="55" x2="140" y2="40" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <line x1="122" y1="60" x2="140" y2="60" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <line x1="122" y1="65" x2="140" y2="80" stroke="rgba(122,120,114,0.4)" stroke-width="0.7"/>
+          <rect x="140" y="30" width="34" height="14" rx="3" fill="rgba(94,158,138,0.12)" stroke="rgba(94,158,138,0.3)" stroke-width="0.6"/>
+          <text x="157" y="40" text-anchor="middle" font-size="6" fill="rgba(94,158,138,0.8)" font-family="monospace">Classify</text>
+          <rect x="140" y="52" width="34" height="14" rx="3" fill="rgba(200,169,110,0.12)" stroke="rgba(200,169,110,0.3)" stroke-width="0.6"/>
+          <text x="157" y="62" text-anchor="middle" font-size="6" fill="rgba(200,169,110,0.8)" font-family="monospace">Detect</text>
+          <rect x="140" y="74" width="34" height="14" rx="3" fill="rgba(138,126,207,0.12)" stroke="rgba(138,126,207,0.3)" stroke-width="0.6"/>
+          <text x="157" y="84" text-anchor="middle" font-size="6" fill="rgba(138,126,207,0.8)" font-family="monospace">Segment</text>
+          <!-- distillation arrow -->
+          <path d="M97 78 Q97 108 97 108" stroke="rgba(200,169,110,0.4)" stroke-width="0.8" fill="none" stroke-dasharray="3 2"/>
+          <text x="97" y="118" text-anchor="middle" font-size="6" fill="rgba(200,169,110,0.6)" font-family="monospace">SSL distillation</text>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">2026</span>
+          <span class="paper-badge badge-prep">In Prep</span>
+        </div>
+        <div class="paper-title">Self-supervised Knowledge Distillation Pretraining For Remote Sensing Multimodal Foundation Model</div>
+        <div class="paper-meta">G. Rotich, S. Sarkar · In preparation, 2026</div>
+        <div class="paper-abstract">Extends knowledge distillation to multimodal pretraining — fusing optical, SAR, spectral, and text inputs into a single compact model trained with self-supervised objectives. Aims for a sensor-agnostic architecture capable of zero-shot transfer across diverse Earth observation tasks.</div>
+        <div class="paper-keywords">
+          <span class="pkw">Multimodal</span><span class="pkw">SSL Distillation</span><span class="pkw">SAR</span><span class="pkw">Optical</span><span class="pkw">Multispectral</span><span class="pkw">Remote Sensing</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Paper 4: COVID-19 Activity -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- City grid / overhead view -->
+          <rect x="8" y="8" width="164" height="90" rx="4" fill="rgba(20,21,22,0.6)" stroke="rgba(122,120,114,0.2)" stroke-width="0.5"/>
+          <!-- City blocks -->
+          <rect x="14" y="14" width="24" height="18" rx="2" fill="rgba(94,158,138,0.2)" stroke="rgba(94,158,138,0.3)" stroke-width="0.5"/>
+          <rect x="42" y="14" width="18" height="18" rx="2" fill="rgba(94,158,138,0.35)" stroke="rgba(94,158,138,0.4)" stroke-width="0.5"/>
+          <rect x="64" y="14" width="28" height="18" rx="2" fill="rgba(94,158,138,0.15)" stroke="rgba(94,158,138,0.25)" stroke-width="0.5"/>
+          <rect x="96" y="14" width="22" height="18" rx="2" fill="rgba(94,158,138,0.4)" stroke="rgba(94,158,138,0.5)" stroke-width="0.5"/>
+          <rect x="122" y="14" width="44" height="18" rx="2" fill="rgba(200,169,110,0.2)" stroke="rgba(200,169,110,0.35)" stroke-width="0.5"/>
+          <rect x="14" y="38" width="40" height="24" rx="2" fill="rgba(94,158,138,0.25)" stroke="rgba(94,158,138,0.35)" stroke-width="0.5"/>
+          <rect x="58" y="38" width="50" height="24" rx="2" fill="rgba(196,92,92,0.15)" stroke="rgba(196,92,92,0.3)" stroke-width="0.5"/>
+          <rect x="112" y="38" width="54" height="24" rx="2" fill="rgba(94,158,138,0.1)" stroke="rgba(94,158,138,0.2)" stroke-width="0.5"/>
+          <rect x="14" y="67" width="68" height="24" rx="2" fill="rgba(94,158,138,0.2)" stroke="rgba(94,158,138,0.3)" stroke-width="0.5"/>
+          <rect x="86" y="67" width="80" height="24" rx="2" fill="rgba(200,169,110,0.15)" stroke="rgba(200,169,110,0.25)" stroke-width="0.5"/>
+          <!-- activity dots -->
+          <circle cx="26" cy="23" r="2.5" fill="rgba(94,158,138,0.8)"/>
+          <circle cx="51" cy="23" r="3.5" fill="rgba(94,158,138,0.9)"/>
+          <circle cx="78" cy="23" r="1.5" fill="rgba(94,158,138,0.5)"/>
+          <circle cx="107" cy="23" r="4" fill="rgba(200,169,110,0.8)"/>
+          <circle cx="140" cy="23" r="2" fill="rgba(200,169,110,0.5)"/>
+          <circle cx="34" cy="50" r="3" fill="rgba(94,158,138,0.6)"/>
+          <circle cx="83" cy="50" r="5" fill="rgba(196,92,92,0.7)"/>
+          <circle cx="139" cy="50" r="2" fill="rgba(94,158,138,0.4)"/>
+          <circle cx="48" cy="79" r="2.5" fill="rgba(94,158,138,0.5)"/>
+          <circle cx="126" cy="79" r="3.5" fill="rgba(200,169,110,0.6)"/>
+          <!-- legend -->
+          <rect x="8" y="104" width="164" height="20" rx="3" fill="rgba(20,21,22,0.8)" stroke="none"/>
+          <circle cx="20" cy="114" r="3" fill="rgba(94,158,138,0.8)"/>
+          <text x="27" y="117" font-size="6" fill="rgba(94,158,138,0.8)" font-family="monospace">Human activity</text>
+          <circle cx="90" cy="114" r="3" fill="rgba(200,169,110,0.8)"/>
+          <text x="97" y="117" font-size="6" fill="rgba(200,169,110,0.8)" font-family="monospace">Economic activity</text>
+          <circle cx="154" cy="114" r="3" fill="rgba(196,92,92,0.7)"/>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">2020</span>
+          <span class="paper-badge badge-published">Published</span>
+        </div>
+        <div class="paper-title">Measuring Human and Economic Activity from Satellite Imagery to Support City-Scale Decision-Making during COVID-19</div>
+        <div class="paper-meta">R. Minetto, M. P. Segundo, G. Rotich, S. Sarkar</div>
+        <div class="paper-abstract">Developed a framework to quantify human mobility and economic activity at city scale using satellite imagery during the COVID-19 pandemic. Demonstrated that overhead imagery can serve as a non-invasive proxy for ground-truth activity metrics to support urban policy decisions in real time.</div>
+        <div class="paper-keywords">
+          <span class="pkw">COVID-19</span><span class="pkw">Human Activity</span><span class="pkw">City-Scale</span><span class="pkw">Satellite Imagery</span><span class="pkw">Decision Making</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Paper 5: Resource-Constrained Detection -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- Overhead satellite image representation -->
+          <rect x="8" y="8" width="100" height="80" rx="4" fill="rgba(20,21,22,0.7)" stroke="rgba(122,120,114,0.2)" stroke-width="0.5"/>
+          <!-- detected objects with bounding boxes -->
+          <rect x="16" y="16" width="20" height="14" rx="1" fill="none" stroke="rgba(94,158,138,0.8)" stroke-width="1.2"/>
+          <text x="26" y="13" text-anchor="middle" font-size="5.5" fill="rgba(94,158,138,0.9)" font-family="monospace">car</text>
+          <rect x="42" y="22" width="28" height="18" rx="1" fill="none" stroke="rgba(200,169,110,0.8)" stroke-width="1.2"/>
+          <text x="56" y="19" text-anchor="middle" font-size="5.5" fill="rgba(200,169,110,0.9)" font-family="monospace">building</text>
+          <rect x="14" y="46" width="36" height="30" rx="1" fill="none" stroke="rgba(200,169,110,0.8)" stroke-width="1.2"/>
+          <text x="32" y="43" text-anchor="middle" font-size="5.5" fill="rgba(200,169,110,0.9)" font-family="monospace">storage</text>
+          <rect x="60" y="50" width="20" height="18" rx="1" fill="none" stroke="rgba(138,126,207,0.8)" stroke-width="1.2"/>
+          <text x="70" y="47" text-anchor="middle" font-size="5.5" fill="rgba(138,126,207,0.9)" font-family="monospace">plane</text>
+          <rect x="76" y="16" width="24" height="18" rx="1" fill="none" stroke="rgba(94,158,138,0.7)" stroke-width="1.2"/>
+          <!-- scene texture -->
+          <rect x="16" y="16" width="20" height="14" rx="1" fill="rgba(94,158,138,0.05)"/>
+          <rect x="42" y="22" width="28" height="18" rx="1" fill="rgba(200,169,110,0.05)"/>
+          <rect x="14" y="46" width="36" height="30" rx="1" fill="rgba(200,169,110,0.05)"/>
+          <rect x="60" y="50" width="20" height="18" rx="1" fill="rgba(138,126,207,0.05)"/>
+          <!-- Resource meter -->
+          <rect x="116" y="8" width="56" height="80" rx="4" fill="rgba(26,27,29,0.8)" stroke="rgba(122,120,114,0.2)" stroke-width="0.5"/>
+          <text x="144" y="22" text-anchor="middle" font-size="6.5" fill="rgba(122,120,114,0.7)" font-family="monospace">Resources</text>
+          <text x="144" y="33" text-anchor="middle" font-size="6" fill="rgba(122,120,114,0.5)" font-family="monospace">Constrained</text>
+          <!-- CPU bar -->
+          <text x="122" y="46" font-size="5.5" fill="rgba(122,120,114,0.6)" font-family="monospace">CPU</text>
+          <rect x="122" y="49" width="44" height="5" rx="2" fill="rgba(122,120,114,0.15)"/>
+          <rect x="122" y="49" width="28" height="5" rx="2" fill="rgba(94,158,138,0.6)"/>
+          <text x="122" y="62" font-size="5.5" fill="rgba(122,120,114,0.6)" font-family="monospace">MEM</text>
+          <rect x="122" y="65" width="44" height="5" rx="2" fill="rgba(122,120,114,0.15)"/>
+          <rect x="122" y="65" width="20" height="5" rx="2" fill="rgba(200,169,110,0.6)"/>
+          <text x="122" y="78" font-size="5.5" fill="rgba(122,120,114,0.6)" font-family="monospace">FPS</text>
+          <rect x="122" y="81" width="44" height="5" rx="2" fill="rgba(122,120,114,0.15)"/>
+          <rect x="122" y="81" width="36" height="5" rx="2" fill="rgba(138,126,207,0.6)"/>
+          <!-- label count -->
+          <text x="144" y="104" text-anchor="middle" font-size="9" fill="rgba(200,169,110,0.7)" font-family="monospace" font-weight="bold">60</text>
+          <text x="144" y="113" text-anchor="middle" font-size="6" fill="rgba(122,120,114,0.5)" font-family="monospace">categories</text>
+          <text x="144" y="122" text-anchor="middle" font-size="6" fill="rgba(122,120,114,0.5)" font-family="monospace">simultaneous</text>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">—</span>
+          <span class="paper-badge badge-published">Published</span>
+        </div>
+        <div class="paper-title">Resource-Constrained Simultaneous Detection and Labeling of Objects in High-Resolution Satellite Images</div>
+        <div class="paper-meta">G. Rotich, R. Minetto, S. Sarkar</div>
+        <div class="paper-abstract">Addresses the challenge of simultaneously detecting and classifying 60+ object categories in high-resolution satellite imagery under tight computational constraints. Developed lightweight detection architectures balancing accuracy and efficiency for real-world deployment in resource-limited overhead imaging pipelines.</div>
+        <div class="paper-keywords">
+          <span class="pkw">Object Detection</span><span class="pkw">Resource-Constrained</span><span class="pkw">High-Resolution</span><span class="pkw">xView</span><span class="pkw">Labeling</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Paper 6: Semantic Relationships / Land Use -->
+    <a class="paper-card" href="#" onclick="return false;">
+      <div class="paper-thumb">
+        <svg viewBox="0 0 180 130" xmlns="http://www.w3.org/2000/svg">
+          <!-- Knowledge graph nodes -->
+          <circle cx="90" cy="55" r="14" fill="rgba(138,126,207,0.15)" stroke="rgba(138,126,207,0.5)" stroke-width="1"/>
+          <text x="90" y="52" text-anchor="middle" font-size="6" fill="rgba(138,126,207,0.9)" font-family="monospace">Airport</text>
+          <text x="90" y="61" text-anchor="middle" font-size="5.5" fill="rgba(138,126,207,0.6)" font-family="monospace">terminal</text>
+          <!-- connected concept nodes -->
+          <circle cx="36" cy="30" r="11" fill="rgba(94,158,138,0.12)" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <text x="36" y="33" text-anchor="middle" font-size="6" fill="rgba(94,158,138,0.8)" font-family="monospace">Runway</text>
+          <circle cx="144" cy="30" r="11" fill="rgba(94,158,138,0.12)" stroke="rgba(94,158,138,0.4)" stroke-width="0.8"/>
+          <text x="144" y="33" text-anchor="middle" font-size="6" fill="rgba(94,158,138,0.8)" font-family="monospace">Hangar</text>
+          <circle cx="30" cy="80" r="10" fill="rgba(200,169,110,0.12)" stroke="rgba(200,169,110,0.4)" stroke-width="0.8"/>
+          <text x="30" y="83" text-anchor="middle" font-size="5.5" fill="rgba(200,169,110,0.8)" font-family="monospace">Tower</text>
+          <circle cx="150" cy="80" r="10" fill="rgba(200,169,110,0.12)" stroke="rgba(200,169,110,0.4)" stroke-width="0.8"/>
+          <text x="150" y="83" text-anchor="middle" font-size="5.5" fill="rgba(200,169,110,0.8)" font-family="monospace">Taxiway</text>
+          <circle cx="90" cy="108" r="10" fill="rgba(196,92,92,0.1)" stroke="rgba(196,92,92,0.35)" stroke-width="0.8"/>
+          <text x="90" y="111" text-anchor="middle" font-size="5.5" fill="rgba(196,92,92,0.8)" font-family="monospace">Cargo</text>
+          <!-- edges -->
+          <line x1="47" y1="33" x2="76" y2="48" stroke="rgba(122,120,114,0.35)" stroke-width="0.8"/>
+          <line x1="133" y1="33" x2="104" y2="48" stroke="rgba(122,120,114,0.35)" stroke-width="0.8"/>
+          <line x1="40" y1="78" x2="76" y2="62" stroke="rgba(122,120,114,0.3)" stroke-width="0.7"/>
+          <line x1="140" y1="78" x2="104" y2="62" stroke="rgba(122,120,114,0.3)" stroke-width="0.7"/>
+          <line x1="90" y1="69" x2="90" y2="98" stroke="rgba(122,120,114,0.3)" stroke-width="0.7"/>
+          <!-- relationship labels -->
+          <text x="58" y="38" font-size="5" fill="rgba(122,120,114,0.5)" font-family="monospace">hasPart</text>
+          <text x="112" y="38" font-size="5" fill="rgba(122,120,114,0.5)" font-family="monospace">hasPart</text>
+          <text x="50" y="72" font-size="5" fill="rgba(122,120,114,0.5)" font-family="monospace">near</text>
+          <text x="116" y="72" font-size="5" fill="rgba(122,120,114,0.5)" font-family="monospace">near</text>
+          <text x="94" y="85" font-size="5" fill="rgba(122,120,114,0.5)" font-family="monospace">uses</text>
+          <!-- ConceptNet label -->
+          <text x="8" y="125" font-size="6" fill="rgba(138,126,207,0.5)" font-family="monospace">ConceptNet · Land Use Graph</text>
+        </svg>
+      </div>
+      <div class="paper-body">
+        <div class="paper-top">
+          <span class="paper-year">2018</span>
+          <span class="paper-badge badge-published">IEEE AIPR</span>
+        </div>
+        <div class="paper-title">Using Semantic Relationships Among Objects for Geospatial Land Use Classification</div>
+        <div class="paper-meta">G. Rotich*, S. Aakur*, R. Minetto, M. P. Segundo, S. Sarkar · <em>IEEE AIPR Workshop</em> · *Equal contribution</div>
+        <div class="paper-abstract">Introduced semantic knowledge graph relationships from ConceptNet into geospatial land use classification — one of the earliest NLP integrations in remote sensing. Demonstrated that object co-occurrence and relational context significantly improve aerial scene understanding beyond purely visual features.</div>
+        <div class="paper-keywords">
+          <span class="pkw">ConceptNet</span><span class="pkw">Knowledge Graph</span><span class="pkw">Land Use</span><span class="pkw">Semantic Relationships</span><span class="pkw">Scene Classification</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
